@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FocusTimer 2.0 - Pomodoro</title>
+</head>
+<body>
+    <aside>
+        <button class="moon">
+            <img src="assets/moon.png" alt="moon icon">
+        </button>
+
+        <button class="sun hide">
+            <img src="assets/sun.png" alt="sun icon">
+        </button>
+    </aside>
+    
+    <main>
+        <section class="box1">
+
+            <div class="timer">
+                <span class="minutes">25</span>
+                <span>:</span>
+                <span class="seconds">00</span>
+            </div>
+
+            <div class="controls">
+
+                <button class="play">
+                    <img src="assets/play.png" alt="play icon">
+                </button>
+
+                <button class="stop">
+                    <img src="assets/stop.png" alt="stop icon">  
+                </button>
+
+                <button class="add-minutes">
+                    <img src="assets/+.png" alt="add icon">                      
+                </button>
+
+                <button class="remove-minutes">
+                   <img src="assets/-.png" alt="remove icon">
+                </button>
+
+                <button class="play-button-violet hide">
+                    <img src="assets/playviolet.png" alt="play icon">
+                </button>
+
+                <button class="stop-button-violet hide">
+                    <img src="assets/stopviolet.png" alt="stop icon">
+                </button>
+
+                <button class="add-button-violet hide">
+                    <img src="assets/+violet.png" alt="add icon">
+                </button>
+
+                <button class="remove-button-violet hide">
+                    <img src="assets/-violet.png" alt="remove icon">
+                </button>
+
+            </div>
+        </section>
+
+        <section class="box2">
+
+            <button class="cards forest">
+                <img src="assets/Vector.png" alt="vector icon"> 
+                <input type="range" name="" id="volume-control-forest" min="0" max="100">
+            </button>
+
+            <button class="cards rain">
+                <img src="assets/icon (2).png" alt="rain icon">
+                <input type="range" name="" id="volume-control-rain" min="0" max="100">
+            </button>
+
+            <button class="cards coffee-shop">
+                <img src="assets/icon.png" alt="coffee shop icon">
+                <input type="range" name="" id="volume-control-coffee" min="0" max="100">
+            </button>
+
+            <button class="cards fireplace">
+                <img src="assets/icon (1).png" alt="fireplace icon">
+                <input type="range" name="" id="volume-control-fireplace" min="0" max="100">    
+            </button>
+
+        </section>
+    </main>
+    
+    <script src="js/main.js"></script>
+    <script src="js/lightdarkmode.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/audio.js"></script>
+    
+</body>
+</html>
