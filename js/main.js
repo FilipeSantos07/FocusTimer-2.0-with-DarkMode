@@ -31,6 +31,7 @@ buttonPlay.addEventListener(`click`, () => {
 buttonStop.addEventListener(`click`, () => {
     buttonPressAudio.play()
 
+    resetDisplay()
     clearTimeout(timerTimeout)
 })
 

@@ -48,6 +48,8 @@ playButtonViolet.addEventListener(`click`, () => {
 
 stopButtonViolet.addEventListener(`click`, () => {
     buttonPressAudio.play()
+
+    resetDisplay()
     clearTimeout(timerTimeout)
 })
 
