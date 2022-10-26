@@ -2,7 +2,7 @@ function countdown() {
 
     timerTimeout = setTimeout(() => {
         let seconds = Number(secondsDisplay.innerHTML)
-        minutes = Number(minutesDisplay.innerHTML)
+        let minutes = Number(minutesDisplay.innerHTML)
 
         if(minutes <= 0 && seconds <= 0) {
             minutesDisplay.innerHTML = String(minutes).padStart(2, "0")
@@ -25,9 +25,9 @@ function countdown() {
 }
 
 function resetDisplay() {
-    minutes = 25
+
     secondsDisplay.innerHTML = String(0).padStart(2, "0")
-    minutesDisplay.innerHTML = minutes
+    minutesDisplay.innerHTML = String(minutes).padStart(2, "0")
 }
 
 
