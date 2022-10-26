@@ -97,25 +97,25 @@ aside {
     display: none;
 }
 
-@media (max-width:650px) {
+@media (max-width:1000px) {
+    body {
+        height: auto;
+    }
     main {
         flex-direction: column;
-        gap: 9rem;
+        gap: 3rem;
+        padding-top: 7.6rem;
+        margin-bottom: 17rem;
     }
     .controls {
         gap: 2rem;
+        margin-top: 0;
     }
     .timer {
         font-size: 11.6rem;
     }
     aside {
         right: 2.4rem;
-        top: 4.4rem;
-    }
-}
-@media (min-width:651px) and (max-width:1000px) {
-    main {
-        flex-direction: column;
-        gap: 10.2rem;
+        top: 1.4rem;
     }
 }
