@@ -35,13 +35,13 @@ input[type='range']::-webkit-slider-runnable-track{
     border-radius: .5rem;
 }
 input[type='range']::-webkit-slider-thumb {
-    max-width: 20px;
-    height: 20px;
+    max-width: 2.0rem;
+    height: 2.0rem;
     margin-top: -4.5px;
-    border-radius: 60px;
+    border-radius: 6.0rem;
 }
 aside {
-    position: fixed;
+    position: absolute;
     right: 6.4rem;
     top: 6.4rem;
 }
